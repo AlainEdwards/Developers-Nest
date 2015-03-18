@@ -1,0 +1,334 @@
+@import url(http://fonts.googleapis.com/css?family=Iceland);
+
+/* Main CSS */
+
+/* Main Site */
+
+body {
+margin:0;
+padding:0;
+position: relative;
+min-height: 100%;
+top: 0px;
+background-image:url('../images/BG.png');
+}
+
+/* Header Elements */
+header{
+margin:auto;
+width:70%;
+}
+
+title{
+color:#d3d3d3;
+}
+h1, title{
+font-family: 'Iceland', cursive;
+font-size:76px;
+position:relative;
+top:10px;
+
+}
+#top{
+background:#FFFFFF;
+height:110px;/*height:180px;*/
+}
+#tlogo{
+text-align:center;
+position:relative;
+background-position: 0px 0px;
+background-color:#FFFFFF;
+}
+#tnav{
+background-color:#d3d3d3;
+}
+#tnavleft{
+margin:left;
+}
+#tnavright{
+margin:right;
+}
+header.row.span1{
+padding-right:5px;
+}
+
+/*--------------------------------------*/
+
+/* Container Elements */
+.container{
+width:70%; 
+background-color:#FFFFFF;
+}
+#main {
+width:90%;
+margin-left:auto;
+margin-right:auto;
+
+}
+#mbottom{
+	width:100%;
+	background-color:#FFFFFF;
+}
+.col-md-7, .col-md-5{
+	margin-left:50px;
+}
+.col-md-7{
+	/*text-align:center;*/
+	width:70%;
+	text-align:left;
+}
+.col-md-5{
+	/*margin-left:41%;*/
+	/*margin-right:auto;*/
+	width:20%;
+	float:right;
+	padding-right:20px;
+}
+.lead{
+	font-size:16px;
+}
+#contact{
+	width:80%;
+	margin:auto;
+	vertical-align:baseline;
+}
+#confirmation{
+	vertical-align:central;
+	margin:auto;
+	width:50%;
+	height:250px;
+	text-align:center;
+}
+#confirmation h2{
+	color:green;
+}
+#login{
+	vertical-align:central;
+	margin:auto;
+	width:30%;
+	height:350px;
+	
+}
+#register{
+	width:80%;
+	margin:auto;
+	vertical-align:baseline;
+}
+#about{
+	margin:auto;
+	width:80%;
+}
+#rabout{
+	width:66%;
+	float:left;
+}
+#specialize{
+	width:33%;
+	float:left;
+}
+/*--------------------------------------*/
+
+/* Footer Elements */
+
+footer {
+background-color:#d3d3d3;
+background-image:url('../images/footer.png');
+background-repeat:repeat;
+overflow:hidden;
+}
+#bottom{
+color:#d3d3d3;
+margin:auto;
+width:70%;
+}
+#fw1, #fw2, #fw3, #fw4, #fw5 {
+width:19%;
+float: left;
+margin-right: 1px;
+margin-left: 1px;
+
+}
+#fw1{
+}
+#fw2{
+
+}
+#fw3{
+
+}
+#fcopyright{
+clear:both;
+text-align:center;
+}
+/*--------------------------------------*/
+
+/* Slider */
+#slider{
+margin:auto;
+height:375px;
+width:1000px;
+}
+/* For Float Items */
+.clearfix:after {
+   content: " "; 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+/*--------------------------------------*/
+
+/* Sidebar */
+
+nav{
+width:25%;
+}
+/*--------------------------------------*/
+
+/*Registration*/
+#register textarea{
+	width:431px;
+	height:98px;
+}
+/*--------------------------------------*/
+
+/*Misc*/
+
+.taken, .error {
+    color:red; }
+
+.available, .valid {
+    color:green; }
+	
+#ip{
+	text-align:center;
+}
+
+#successful_login, #successful_logout, #successful{
+border:2px solid #a1a1a1;
+border-radius:25px;
+width: 25%;
+margin-left: auto;
+margin-right: auto;
+background-color:#FFFFFF;
+}
+#successful_login h1, #successful_logout h1, #successful h1{
+	color:green; 
+	text-align:center;
+}
+#successful_login p, #successful_logout p, #successful p{
+	text-align:center;
+}
+
+.textregister{
+width:30%;
+}
+
+#clearfix{
+clear:both;	
+}
+/*--------------------------------------*/
+
+/*Profile*/
+
+#profile{
+width:90%;
+margin-left:auto;
+margin-right:auto;
+}
+#profile img, #profile_frame img{
+width:177px;
+height:154px;
+}
+
+#profile #image{
+	float:left;
+}
+#personal{
+	float:left;
+	width:200px;
+	padding-left:102px;
+}
+
+#profile_frame{
+width:200px;
+height:180px;
+float:left;
+}
+
+#profile_frame p{
+	text-align:center;
+}
+
+#whos_online{
+	padding-top:10px;
+}
+
+#p_buttons{
+	float:left;
+	width:200px;	
+}
+#friends, #posts{
+	float:left;
+	width:40%;
+}
+
+#friendslist ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#friendslist ul li { display: inline; }
+
+#friendslist ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+background-color: #036;
+}
+
+#friendslist ul li a:hover
+{
+color: #fff;
+background-color: #369;
+}
+
+/*--------------------------------------*/
+
+/*Code*/
+
+#code{
+word-wrap:break-word;
+text-align:center;
+}
+
+#codewrap{
+width:90%;
+margin-left:auto;
+margin-right:auto;
+}
+
+#codewrap h3{
+	text-align:center;
+}
+
+#submit_code{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#submit_code #descript{
+	width:90%;
+	height:185px;
+}
+
+#submit_code #code{
+	width:90%;
+	height:282px;
+}
